@@ -171,7 +171,7 @@ plot_intro(
 )
 ```
 
-![](Variable-Selection-Analysis-on-Indonesian-Hoax-News-Dataset_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![Variable_Selection_Analysis_on_Indonesian_Hoax_News_Dataset](unnamed-chunk-3-1.png)<!-- -->
 
 ``` r
 # Target Variable Distribution
@@ -187,7 +187,7 @@ hoax_news %>%
   )
 ```
 
-![](Variable-Selection-Analysis-on-Indonesian-Hoax-News-Dataset_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
+![Variable_Selection_Analysis_on_Indonesian_Hoax_News_Dataset](unnamed-chunk-3-2.png)<!-- -->
 
 ``` r
 # Wordcloud Generation
@@ -212,7 +212,7 @@ hoax_news_longer %>%
     ## Some words could not fit on page. They have been placed at their original
     ## positions.
 
-![](Variable-Selection-Analysis-on-Indonesian-Hoax-News-Dataset_files/figure-gfm/unnamed-chunk-3-3.png)<!-- -->
+![Variable_Selection_Analysis_on_Indonesian_Hoax_News_Dataset](unnamed-chunk-3-3.png)<!-- -->
 
 ``` r
 rm(hoax_news_longer)
@@ -494,14 +494,14 @@ forward_cv_df %>%
   ggline(x = "support.size", y = "cv", color = "#03A9F4", add = "point")
 ```
 
-![](Variable-Selection-Analysis-on-Indonesian-Hoax-News-Dataset_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![Variable_Selection_Analysis_on_Indonesian_Hoax_News_Dataset](unnamed-chunk-4-1.png)<!-- -->
 
 ``` r
 forward_bic_df %>%
   ggline(x = "support.size", y = "BIC", color = "#03A9F4", add = "point")
 ```
 
-![](Variable-Selection-Analysis-on-Indonesian-Hoax-News-Dataset_files/figure-gfm/unnamed-chunk-4-2.png)<!-- -->
+![Variable_Selection_Analysis_on_Indonesian_Hoax_News_Dataset](unnamed-chunk-4-2.png)<!-- -->
 
 ``` r
 # 4.3 Coefficients Interpretation (Forward CV)
@@ -571,7 +571,7 @@ plot_coef_lasso_dev <- tidy(model_lasso_dev$glmnet.fit) %>%
 plot_coef_lasso_dev
 ```
 
-![](Variable-Selection-Analysis-on-Indonesian-Hoax-News-Dataset_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![Variable_Selection_Analysis_on_Indonesian_Hoax_News_Dataset](unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
 # 5.3 Coefficients Extraction at 1SE
@@ -638,7 +638,7 @@ plot_coef_ridge_auc <- tidy(model_ridge_auc$glmnet.fit) %>%
 plot_coef_ridge_auc
 ```
 
-![](Variable-Selection-Analysis-on-Indonesian-Hoax-News-Dataset_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![Variable_Selection_Analysis_on_Indonesian_Hoax_News_Dataset](unnamed-chunk-6-1.png)<!-- -->
 
 ``` r
 # 6.3 Coefficients Extraction at 1SE
